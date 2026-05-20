@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Results and test outputs
+results/
+results-*/
+results_*/
+*_results/
+*_test_*/
+demo_results/
+demo_results_*/
+test_preferences/
+test_preferences_*/
+test_workloads/
+test_workloads_*/
+test_sample_results/
+comprehensive_test_results/
+
+# Algorithm specific results
+nsga2_*/
+moead_*/
+spea2_*/
+
+# Output files
+*.png
+*.csv
+*.json
+*.txt
+
+# Keep important configs
+!requirements.txt
+!configs/*.json
+!.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (symlinked)
+data/
+
+# Temporary and old files
+*_temp.md
+quicktest_*.txt
+*.docx
+
+# Claude
+.claude/
